@@ -484,14 +484,14 @@ Buttons
 .learn-btn, .download-btn {
     display: inline-block;
     padding: 18px 46px;
-    border: 2px solid #fff;
+    border: 2px solid #24374B;
     border-radius: 3px;
-    color: #fff;
+    color: #24374B;
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: #000;
+    color: #000;
     text-decoration: none;
 }
 .read-more-btn {
@@ -581,9 +581,9 @@ Hero
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
-    background: rgb(40, 70, 102) url('../img/hero-01.jpg') no-repeat center center;
+    background: rgb(40, 70, 102) url('../img/formation-itinerante.jpg') no-repeat center center;
     background-size: cover;
-    color: #fff;
+    color: #24374B;
 }
 .hero h1 {
     margin: 200px 0 45px 0;
@@ -776,7 +776,7 @@ blockquote .logo-quote {
 Showcase
 ========================================================================== */
 .showcase {
-    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background: url('../img/exploration-continue.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 .showcase h1 {
@@ -932,7 +932,7 @@ Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #3f6184;
+    background-color: orange;
 }
 .download h1 {
     margin: 0 0 15px 0;
@@ -1090,4 +1090,9 @@ Waypoints
 .delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+#promise {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 1em;
 }
